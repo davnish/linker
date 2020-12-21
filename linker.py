@@ -139,7 +139,6 @@ def IT_workshop():
     webbrowser.open(list(data["IT Workshop"][0].values())[0])
 
 def feedback():
-    window.destroy()
     windows('Feedback', '200x260')
     feedback_frame1 = Frame(window2)
     feedback_frame1.pack(side=TOP ,fill = 'x')
